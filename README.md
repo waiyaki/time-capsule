@@ -1,2 +1,2 @@
 # time-capsule
-Shit I've done. Literally.
+Shit I've written. Literally.
