@@ -1,0 +1,15 @@
+Assuming that the working directory of the command prompt in where the project
+files are stored, compile the project files like this
+
+javac -d . UserAccount.java
+
+javac -classpath .:/absolute-path-to-project-directory/ DataUsers.java DataUsersMain.java
+
+	--> Where the absolute path to the project directory is the absolute path to where the 
+	    java code is stored
+	    In windows, should start with C:\Users\path-to-project-directory
+	    In Unix-like environment, it would be /home/username/path - where username is the name of the current user.
+
+run it like this
+
+java DataUsersMain

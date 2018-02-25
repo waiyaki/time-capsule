@@ -1,0 +1,106 @@
+Waiyaki@Ubuntu:/home/waiyaki$ cd /home/waiyaki/Win8/Users/Wykes/Google\ Drive/programming/SchWrk/Java/AssOne/
+
+Waiyaki@Ubuntu:/home/waiyaki/Win8/Users/Wykes/Google Drive/programming/SchWrk/Java/AssOne$ ls
+AnnualLoan.java  DemoLoan.java  LoanInterface.java  Loan.java
+
+Waiyaki@Ubuntu:/home/waiyaki/Win8/Users/Wykes/Google Drive/programming/SchWrk/Java/AssOne$ javac *.java
+
+Waiyaki@Ubuntu:/home/waiyaki/Win8/Users/Wykes/Google Drive/programming/SchWrk/Java/AssOne$ java DemoLoan
+Enter Loanee's Name: James
+Enter Loanee's Name: Muturi
+Enter Loanee's Name: Lec
+Enter Loanee's Name: Makumi
+
+
+Loanee Muturi's Details:
+	Amount Loaned: 3489
+	Months to full resettlement (6, 12, 18, 24): 6
+
+Loanee Lec's Details:
+	Amount Loaned: 9067
+	Months to full resettlement (6, 12, 18, 24): 24
+
+
+Loanee Name:	James
+Amount Loaned:	$10,000.00
+Date Loaned:	2 NOVEMBER, 2014
+Pay Off Months:	12
+Pay By Date:	2 NOVEMBER, 2015
+Fee Charged:	$1,800.00
+Total Amount To Pay:	$11,800.00
+
+Loanee Name:	Muturi
+Amount Loaned:	$3,489.00
+Date Loaned:	2 NOVEMBER, 2014
+Pay Off Months:	12
+Pay By Date:	2 NOVEMBER, 2015
+Fee Charged:	$1,800.00
+Total Amount To Pay:	$5,289.00
+
+Loanee Name:	Lec
+Amount Loaned:	$9,067.00
+Date Loaned:	2 NOVEMBER, 2014
+Pay Off Months:	24
+Pay By Date:	4 NOVEMBER, 2016
+Fee Charged:	$4,000.00
+
+Loanee Name:	Makumi
+Amount Loaned:	$5,690.00
+Date Loaned:	2 NOVEMBER, 2014
+Pay Off Months:	18
+Pay By Date:	2 MAY, 2016
+Fee Charged:	$3,000.00
+
+Waiyaki@Ubuntu:/home/waiyaki/Win8/Users/Wykes/Google Drive/programming/SchWrk/Java/AssOne$ java DemoLoan
+Enter Loanee's Name: James
+Enter Loanee's Name: Muturi
+Enter Loanee's Name: Lec
+Enter Loanee's Name: Makumi
+
+
+Loanee Muturi's Details:
+	Amount Loaned: Not a number
+Exception: Please enter a number.
+
+	Amount Loaned: 7890
+	Months to full resettlement (6, 12, 18, 24): 10
+Exception: Months in which to pay back should be either 6, 12, 18 or 24
+	Months to full resettlement (6, 12, 18, 24): 12
+
+Loanee Lec's Details:
+	Amount Loaned: 20000
+Exception: Amount to loan should be > 0 and <= 10000
+
+	Amount Loaned: 10000
+	Months to full resettlement (6, 12, 18, 24): 18
+
+
+Loanee Name:	James
+Amount Loaned:	$10,000.00
+Date Loaned:	2 NOVEMBER, 2014
+Pay Off Months:	12
+Pay By Date:	2 NOVEMBER, 2015
+Fee Charged:	$1,800.00
+Total Amount To Pay:	$11,800.00
+
+Loanee Name:	Muturi
+Amount Loaned:	$7,890.00
+Date Loaned:	2 NOVEMBER, 2014
+Pay Off Months:	12
+Pay By Date:	2 NOVEMBER, 2015
+Fee Charged:	$1,800.00
+Total Amount To Pay:	$9,690.00
+
+Loanee Name:	Lec
+Amount Loaned:	$10,000.00
+Date Loaned:	2 NOVEMBER, 2014
+Pay Off Months:	18
+Pay By Date:	2 MAY, 2016
+Fee Charged:	$3,000.00
+
+Loanee Name:	Makumi
+Amount Loaned:	$5,690.00
+Date Loaned:	2 NOVEMBER, 2014
+Pay Off Months:	18
+Pay By Date:	2 MAY, 2016
+Fee Charged:	$3,000.00

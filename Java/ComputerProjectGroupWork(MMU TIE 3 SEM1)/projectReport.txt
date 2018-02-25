@@ -1,0 +1,38 @@
+COMPUTER PROJECT ASSIGNMENT
+
+PROJECT WRITEUP
+
+GROUP MEMBERS			ADM NO
+James Muturi 			ENG-211-062/2012
+John Kago				ENG-211-050 2012
+Ivy Brenda Cherotich	ENG-211-045/2012
+Odida O.M. Henry		ENG-211-101/2012
+
+PROJECT PROPOSAL WRITEUP
+
+	TITLE: Java Program to Enable users Share Data.
+
+		This proposed program will enable different users who have contributed in some ratio to buy a data bundle share data bundles in the ratio of their contributions.
+		Each user should be limited to a specific amount of bundles after which their access to the internet is denied. The different users will be identified and kept track of using their IP addresses and device MAC addresses. The data usage amongst them should be mutually exclusive in that they do not all have to be using the internet at the same time as well as should allow for concurrent use, in that more than one user can access the internet at the same time and that wouldn't affect how any of them is billed.
+
+		This program can allow room mates contribute to buy a large internet bundle then share it fairly amongst themselves in the ratio of their contributions and each would be automatically allowed only as much as they should be, but no more.
+
+
+PROJECT CODE SOLUTION
+	The project computer code is in the files UserAccounts.java, DataUsers.java and DataUsersMain.java
+
+	The file DataUsersMain.java serves to test the working of the solution.
+
+	The files are attached herein.
+
+
+PROJECT CODE CONSTRAINTS
+	In as much as the objectives of the project were largely achieved, the following are the ways in which the 
+	solution presented here is constrained.
+
+		- The program does not persist data so the user has to start from scratch each and every
+		  time the program is run.
+		- The program relies on user input to track devices, but does not user regular expressions where
+		  necessary to verify that user input.
+		- Only one user can use the program at a time, that is, only one user can be logged in at a time.
+		- The program assumes a fixed data consumption rate, so the user is charged at a fixed rate.

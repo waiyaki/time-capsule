@@ -1,0 +1,286 @@
+Waiyaki@Ubuntu:/home/waiyaki$
+Waiyaki@Ubuntu:/home/waiyaki$
+Waiyaki@Ubuntu:/home/waiyaki$ cd /home/waiyaki/Documents/ProgInJava/SchWrk/Project/programDetails/program/
+Waiyaki@Ubuntu:program$ ls
+DataUsers.java  DataUsersMain.java  UserAccount.java
+Waiyaki@Ubuntu:program$ javac -d . UserAccount.java 
+Waiyaki@Ubuntu:program$ ls
+data  DataUsers.java  DataUsersMain.java  UserAccount.java
+Waiyaki@Ubuntu:program$ javac -classpath .:/home/waiyaki/Documents/ProgInJava/SchWrk/Project/programDetails/program/ DataUsers.java DataUsersMain.java
+Note: DataUsersMain.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Waiyaki@Ubuntu:program$ java DataUsersMain
+Enter the data bundle amount to be shared (in MegaBytes):
+> 10
+
+Select your choice:
+1. Create Accounts
+2. Login
+3. Reset Accounts
+4. Quit
+> 1
+
+Create Accounts for how many users?
+> 2
+
+Enter the sharing ratio between 2 users,
+e.g. if for 3 users the ratio is 3:2:1, enter 3 2 1
+> 1 1
+
+For User 1:
+Enter the first name followed by the last name:
+Separate the names with a space:
+> > Ivy Brenda  
+
+Enter the IP Address for Ivy Brenda:
+> 127.0.0.1
+
+Enter the MAC address for Ivy Brenda,
+ e.g. 00:11:22:33:44:55
+> aa.bb.cc.dd.ee.ff
+
+For User 2:
+Enter the first name followed by the last name:
+Separate the names with a space:
+> James Muturi
+
+Enter the IP Address for James Muturi:
+> 192.168.43.1
+
+Enter the MAC address for James Muturi,
+ e.g. 00:11:22:33:44:55
+> cc.dd.ee.ff.gg.hh
+
+Select your choice:
+1. Create Accounts
+2. Login
+3. Reset Accounts
+4. Quit
+> 2
+
+Enter ip address: 127.0.0.1
+
+Enter device MAC Address: aa.bb.cc.dd.ee.ff
+  
+Welcome, Ivy Brenda
+   Select your choice:
+	1. View account information
+	2. View Session Time information.
+	3. Log out.
+> 1
+
+Account Holder: Ivy Brenda
+Allocated Bundle: 5.00
+Bundle Balance: 5.00
+
+Log in time: 08:27:49 GMT
+Elapsed time: 00:00:05 GMT 
+  
+Welcome, Ivy Brenda
+   Select your choice:
+	1. View account information
+	2. View Session Time information.
+	3. Log out.
+> 1
+
+Account Holder: Ivy Brenda
+Allocated Bundle: 5.00
+Bundle Balance: 0.11
+
+Log in time: 08:27:49 GMT
+Elapsed time: 00:00:54 GMT
+  
+Welcome, Ivy Brenda
+   Select your choice:
+	1. View account information
+	2. View Session Time information.
+	3. Log out.
+> 
+Session Information:
+Log in time: 08:27:49 GMT
+Elapsed time: 00:01:00 GMT
+
+Account Bundle Balance: 0.00
+Account Status: INACTIVE
+
+Your session has expired.
+
+
+Select your choice:
+1. Create Accounts
+2. Login
+3. Reset Accounts
+4. Quit
+> 2
+
+Enter ip address: 192.168.43.1
+
+Enter device MAC Address: cc.dd.ee.ff.gg.hh
+  
+Welcome, James Muturi
+   Select your choice:
+	1. View account information
+	2. View Session Time information.
+	3. Log out.
+> 2
+
+Log in time: 08:29:21 GMT
+Elapsed time: 00:00:02 GMT
+  
+Welcome, James Muturi
+   Select your choice:
+	1. View account information
+	2. View Session Time information.
+	3. Log out.
+> 1
+
+Account Holder: James Muturi
+Allocated Bundle: 5.00
+Bundle Balance: 5.00
+
+Log in time: 08:29:21 GMT
+Elapsed time: 00:00:06 GMT
+  
+Welcome, James Muturi
+   Select your choice:
+	1. View account information
+	2. View Session Time information.
+	3. Log out.
+> 1
+
+Account Holder: James Muturi
+Allocated Bundle: 5.00
+Bundle Balance: 4.02
+
+Log in time: 08:29:21 GMT
+Elapsed time: 00:00:15 GMT
+  
+Welcome, James Muturi
+   Select your choice:
+	1. View account information
+	2. View Session Time information.
+	3. Log out.
+> 3
+
+Select your choice:
+1. Create Accounts
+2. Login
+3. Reset Accounts
+4. Quit
+> 1
+There are already users created. You have to wait until their sessions expire
+in order for you to create other accounts.
+Or reset accounts now.
+
+Select your choice:
+1. Create Accounts
+2. Login
+3. Reset Accounts
+4. Quit
+> 3
+
+Enter the admin password to reset accounts.
+> toor
+Accounts reset successfully
+
+Select your choice:
+1. Create Accounts
+2. Login
+3. Reset Accounts
+4. Quit
+> 1
+Enter the data bundle amount to be shared (in MegaBytes):
+> 20
+
+Create Accounts for how many users?
+> 4
+
+Enter the sharing ratio between 4 users,
+e.g. if for 3 users the ratio is 3:2:1, enter 3 2 1
+> 1 2 3 4
+
+For User 1:
+Enter the first name followed by the last name:
+Separate the names with a space:
+> > James Muturi
+
+Enter the IP Address for James Muturi:
+> 127.0.0.1
+
+Enter the MAC address for James Muturi,
+ e.g. 00:11:22:33:44:55
+> 00:11:22:33:44:55
+
+For User 2:
+Enter the first name followed by the last name:
+Separate the names with a space:
+> John Kago
+
+Enter the IP Address for John Kago:
+> 43.2.8.9
+
+Enter the MAC address for John Kago,
+ e.g. 00:11:22:33:44:55
+> 00:11:22:33:44:55
+Invalid macAddress: that macAddress is already registered.
+Please enter a different macAddress or login.
+That MAC Address was not set.
+
+User not created. Reset accounts then try again.
+
+
+For User 3:
+Enter the first name followed by the last name:
+Separate the names with a space:
+> Odida Henry
+
+Enter the IP Address for Odida Henry:
+> 83.0.0.1
+
+Enter the MAC address for Odida Henry,
+ e.g. 00:11:22:33:44:55
+> aa.bb.cc.ee.dd.ff
+
+For User 4:
+Enter the first name followed by the last name:
+Separate the names with a space:
+> Ivy B
+
+Enter the IP Address for Ivy B:
+> 192.8.9.0
+
+Enter the MAC address for Ivy B,
+ e.g. 00:11:22:33:44:55
+> qq.ww.ee.rr.tt.yy.uu
+
+Incorrect input. Press Enter to try again.
+
+
+Enter the MAC address for Ivy B,
+ e.g. 00:11:22:33:44:55
+> qq.ww.ee.rr.tt.yy
+
+Select your choice:
+1. Create Accounts
+2. Login
+3. Reset Accounts
+4. Quit
+> 2
+
+Enter ip address: 43.2.8.9
+
+Enter device MAC Address: 00.11.22.33.44.55
+
+No user registered under those credentials.
+
+Select your choice:
+1. Create Accounts
+2. Login
+3. Reset Accounts
+4. Quit
+> 4
+Goodbye!
+
+Waiyaki@Ubuntu:program$
+Waiyaki@Ubuntu:program$
+Waiyaki@Ubuntu:program$
